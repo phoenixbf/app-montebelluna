@@ -52,7 +52,7 @@ APP.init = ()=>{
 
     ATON.FE.uiAddButtonFullScreen("idTopToolbar");
     $("#idTopToolbar").append("<div id='idbtn-switch' class='atonBTN' style='width:100px;'>PAST</div>");
-    ATON.FE.uiAddButtonDeviceOrientation("idTopToolbar");
+    //ATON.FE.uiAddButtonDeviceOrientation("idTopToolbar");
 
     ATON.Nav.setFirstPersonControl();
     ATON.Nav.setFOV(APP.FOV_STD);
@@ -231,9 +231,7 @@ APP.loadConfig = (path)=>{
 
         if (data.sem){
             for (let a in data.sem){
-                //let A = ATON.createUINode( a );
                 let A = ATON.createSemanticNode(a);
-                //A.load("proxies/"+a+".gltf", ()=>{ A.enablePicking(); }).attachToRoot(); //.attachToRoot();
                 
                 //A.load("proxies/"+a+".glb", ()=>{ A.enablePicking() }).attachTo("mainsem");
                 A.load("proxies/"+a+".glb").attachTo("mainsem");
@@ -354,10 +352,11 @@ APP.setupEvents = ()=>{
         if (k==='v'){
             console.log(ATON.Nav.getCurrentDirection());
         }
-
+/*
         if (k==='x'){
             console.log(ATON._screenPointerCoords);
         }
+*/
     });
 };
 
@@ -372,31 +371,6 @@ APP.buildSUI = ()=>{
     APP.suiTelep.attachToRoot();
 
     console.log(APP.suiTelep);
-
-/*
-    APP.suiTelep.onSelect = ()=>{
-        console.log("Trigger");
-
-        ATON.AudioHub.playOnceGlobally(APP.audioDir + "teleport.wav");
-    };
-*/
-/*
-    APP.suiTelep = ATON.createUINode();
-    let gTel = new THREE.CylinderBufferGeometry(1,1, 0.1, 32,1, true);
-
-    let matTel = ATON.MatHub.materials.teleportLoc;
-    matTel.depthTest = false;
-
-    let mTeleport = new THREE.Mesh( gTel, matTel );
-    mTeleport.frustumCulled = false;
-
-    //mTeleport.renderOrder = 100;
-    APP.suiTelep.add( mTeleport );
-    APP.suiTelep.disablePicking();
-    //APP.suiTelep.visible = false;
-
-    APP.suiTelep.attachToRoot();
-*/
 };
 
 
