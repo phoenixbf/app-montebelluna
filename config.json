@@ -56,26 +56,26 @@
             "audio": ""
         },
         "P14":{
-            "title": "Panoramica generale dei diversi ambienti",
-            "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
+            "title": "L’edificio",
+            "descr": "L’edificio misura circa 215 m2.  Presenta lo schema delle fattorie romane descritte da Vitruvio: posizione isolata e indipendente; perimetro rettangolare; ambienti disposti su tre lati di un’area centrale con il settore produttivo nell’area centro-orientale e il settore abitativo in quella occidentale.",
             "cover": "sample.png",
             "audio": ""
         },
         "P15":{
-            "title": "Panoramica generale dei diversi ambienti",
-            "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
+            "title": "Pianta con ambienti",
+            "descr": "Nella sua ultima fase di vita, il complesso si articolava in vari ambienti di forma quadrangolare (A, B, C, D, E, F e G), disposti a ferro di cavallo attorno ad un’area libera centrale, probabilmente scoperta (I).",
             "cover": "sample.png",
             "audio": ""
         },
         "P15b":{
-            "title": "Panoramica generale dei diversi ambienti",
-            "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
+            "title": "Funzione",
+            "descr": "L’edificio era quasi interamente dedicato alla produzione artigianale, ad eccezione dell’ambiente E. È probabile, infatti, che la struttura accogliesse, oltre ad una (è la prima volta che viene nominata) fucina e ad altri  altri ambienti lavorativi, anche l’abitazione del fabbro.",
             "cover": "sample.png",
             "audio": ""
         },
         "P16":{
-            "title": "Panoramica generale dei diversi ambienti",
-            "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
+            "title": "Grande interesse",
+            "descr": "La scoperta di  un edificio artigianale di età romana in cui veniva lavorato il ferro è di grande interesse, visto che la località, in passato, aveva restituito quasi esclusivamente sepolture, databili dalla fine dell’VIII sec a.C. al I-II sec d.C.",
             "cover": "sample.png",
             "audio": ""
         },
@@ -130,6 +130,48 @@
         "P37":{
             "title": "Ambiente A",
             "descr": "L’interno del vano è occupato da tre strutture da fuoco: il primo focolare è addossato al muro settentrionale, il secondo si appoggia a quello occidentale, il terzo si trova nella parte centro-orientale del vano. I residui di materiale carbonizzato testimoniano lo svolgimento di attività antropiche  di carattere lavorativo e artigianale più che domestico all’interno di questo ambiente.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P41":{
+            "title": "La fucina",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P42":{
+            "title": "La forgia",
+            "descr": "Nella forgia venivano scaldati gli oggetti tra i carboni ardenti. Si trovava sopra un basamento quadrangolare, di cui oggi si conserva solamente la fondazione, realizzata in tegole e ciottoli. Per mantenere ardente il carbone ed elevata la temperatura veniva usato il mantice: un sacco in pelle con manici e un beccuccio che veniva aperto e chiuso da un assistente per immettere aria nella forgia.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P43":{
+            "title": "La fucina",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P44":{
+            "title": "La fucina",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P45":{
+            "title": "La fucina",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P46":{
+            "title": "La fucina",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P47":{
+            "title": "La fucina",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
             "cover": "sample.png",
             "audio": ""
         },
