@@ -19,11 +19,7 @@
         {
             "name": "05",
             "pos": [341.41, 116.658, -116.65]
-        }
-    ],
-
-    "hold":[
-
+        },
         {
             "name": "06",
             "pos": [341.23, 116.658, -120.51]
@@ -38,7 +34,15 @@
         }
     ],
 
+
+
     "sem":{
+        "11":{
+            "title": "Lo scavo",
+            "descr": "A Posmon, in Via Cima Mandria, si trova uno dei siti archeologici più importanti di Montebelluna. Nel corso degli ultimi 50 anni qui sono stati scoperti una necropoli protostorica e romana, due edifici e una strada di età romana.",
+            "cover": "1D_localizzazione_colRID.jpg",
+            "audio": ""
+        },
         "USV107":{
             "title": "USV 107",
             "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis congue est, ac eleifend sem tincidunt at. Cras et mollis dui, vitae malesuada risus. Integer dui tortor, sagittis sit amet velit a, aliquet gravida nunc. Curabitur sit amet massa convallis turpis posuere dictum id a libero. Aenean eget eros vel nibh placerat sollicitudin sit amet a purus. Aenean eu dolor laoreet, lobortis nisi sed, dictum augue. Fusce finibus nibh quis dolor tristique, accumsan rutrum diam facilisis. Maecenas pellentesque felis velit, blandit suscipit eros maximus quis. Integer in pulvinar sem, sed scelerisque ipsum. Phasellus eu orci placerat, elementum magna a, ornare erat. Phasellus aliquet tortor eleifend lorem blandit scelerisque ac sit amet libero. Mauris sed dictum tortor, sit amet laoreet augue. Aenean sagittis neque nec dapibus tempor. Ut auctor tellus et euismod vehicula. Duis ut metus non turpis pulvinar porttitor. Fusce eget odio maximus, fringilla arcu ut, tempor quam. Aliquam in dui tincidunt, dapibus urna tristique, interdum erat. Fusce sagittis fermentum nisl, vitae luctus mauris maximus at. Sed ullamcorper fringilla enim a rhoncus. Donec ipsum dolor, pharetra id arcu fringilla, consectetur posuere augue. Donec ornare tempor felis eu posuere. Cras eget neque commodo, posuere mi non, maximus leo. Etiam pretium accumsan neque sed pretium.",
