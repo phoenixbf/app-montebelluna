@@ -100,37 +100,37 @@
         "P32a":{
             "title": "Olla rito di fondazione",
             "descr": "Le analisi chimiche a cui sono state sottoposte la terra che riempiva il vaso e il vaso stesso hanno rivelato tracce di numerosi alimenti che potrebbero essere legati alla funzione originaria dell’olla, ma forse anche al rito di fondazione, effettuato al momento della costruzione dell’edificio. Tale oggetto è stato sottoposto a restauro.",
-            "cover": "3G_12_rito_fondazione.jpg",
+            "cover": "32a.JPG",
             "audio": ""
         },
         "P33":{
             "title": "Ambiente F",
             "descr": "Non ci sono abbastanza dati per attribuire una funzione certa a questo ambiente. Potrebbe aver ricoperto un ruolo abitativo, come il vicino vano E, o aver avuto una semplice funzione di deposito, viste le dimensioni contenute.",
-            "cover": "sample.png",
+            "cover": "3H_10_ambF.jpg",
             "audio": ""
         },
         "P34":{
             "title": "Ambiente D",
             "descr": "Metà dello spazio interno di questo vano era occupato da una grande vasca, che forse doveva contenere l’acqua necessaria per le attività artigianali svolte negli ambienti vicini. Non sono state trovate tegole o canalizzazioni per l’acqua. Questo porta a ipotizzare che tale ambiente fosse scoperto, o al massimo dotato di una piccola tettoia sui lati nord e ovest al fine di convogliare l’acqua piovana dentro la cavità della vasca.",
-            "cover": "sample.png",
+            "cover": "3I_13_vascaD.jpg",
             "audio": ""
         },
         "P35":{
             "title": "Ambiente C",
             "descr": "L’interno dell’ambiente è dominato dalla presenza di un focolare. A differenza di quello presente nell’ambiente E, questo focolare ha dimensioni più piccole, il cordolo è presente solo su 3 lati e la superficie è piatta e non convessa: queste differenze forse si spiegano con una diversa funzione delle due strutture da fuoco.",
-            "cover": "sample.png",
+            "cover": "3L_14_ambC.jpg",
             "audio": ""
         },
         "P36":{
             "title": "Ambiente B",
             "descr": "Questo vano sembra essere diviso in due settori da un setto murario direzionato in senso est-ovest. Nella metà settentrionale del vano è collocata una piccola fornace. Le piccole dimensioni e l’assenza di un qualsiasi resto di materiale associabile ad una qualche produzione lascia ancora aperte tutte le ipotesi circa le finalità di questa struttura.",
-            "cover": "sample.png",
+            "cover": "3M_15_forno_ambB.jpg",
             "audio": ""
         },
         "P37":{
             "title": "Ambiente A",
             "descr": "L’interno del vano è occupato da tre strutture da fuoco: il primo focolare è addossato al muro settentrionale, il secondo si appoggia a quello occidentale, il terzo si trova nella parte centro-orientale del vano. I residui di materiale carbonizzato testimoniano lo svolgimento di attività antropiche  di carattere lavorativo e artigianale più che domestico all’interno di questo ambiente.",
-            "cover": "sample.png",
+            "cover": "3N_16_ambA.jpg",
             "audio": ""
         },
         "P41":{
