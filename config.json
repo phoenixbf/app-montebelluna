@@ -82,25 +82,25 @@
         "P3":{
             "title": "Panoramica generale dei diversi ambienti",
             "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
-            "cover": "sample.png",
+            "cover": "3A_TAV_A3_pianta_strutture_totale.jpg",
             "audio": ""
         },
         "P31":{
             "title": "Ambiente I",
             "descr": "Questo ambiente costituiva il settore di accesso principale all’edificio. Si presenta infatti come una corte centrale, attorno alla quale si articolavano i vari ambienti (A, B, C, D, E, F e G). e poche tegole rinvenute e la pendenza verso sud del piano di calpestio (che garantiva il deflusso dell’acqua piovana verso l’esterno) portano a sostenere che si trattasse di uno spazio scoperto, che fungeva da cortile interno e da luogo di disbrigo.",
-            "cover": "sample.png",
+            "cover": "3B.jpg",
             "audio": ""
         },
         "P32":{
             "title": "Area residenziale (vano E)",
-            "descr": "L’edificio è situato/esposto a occidente. All’interno sono stati ritrovati un focolare, alcuni materiali come pesi da telaio, vetro e ossa e un’olla (un recipiente da cucina sepolto ritualmente presso la  soglia dell’ambiente). Tutto questo suggerisce che il locale fosse adibito ad abitazione privata.",
-            "cover": "sample.png",
+            "descr": "L’edificio è situato a occidente. All’interno sono stati ritrovati un focolare, alcuni materiali come pesi da telaio, vetro e ossa e un’olla (un recipiente da cucina sepolto ritualmente presso la  soglia dell’ambiente). Tutto questo suggerisce che il locale fosse adibito ad abitazione privata.",
+            "cover": "32.jpg",
             "audio": ""
         },
         "P32a":{
             "title": "Olla rito di fondazione",
             "descr": "Le analisi chimiche a cui sono state sottoposte la terra che riempiva il vaso e il vaso stesso hanno rivelato tracce di numerosi alimenti che potrebbero essere legati alla funzione originaria dell’olla, ma forse anche al rito di fondazione, effettuato al momento della costruzione dell’edificio. Tale oggetto è stato sottoposto a restauro.",
-            "cover": "sample.png",
+            "cover": "3G_12_rito_fondazione.jpg",
             "audio": ""
         },
         "P33":{
