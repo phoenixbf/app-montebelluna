@@ -34,8 +34,6 @@
         }
     ],
 
-
-
     "sem":{
         "P11":{
             "title": "Introduzione scavi Area Posmon",
@@ -135,20 +133,20 @@
         },
         "P41":{
             "title": "La fucina",
-            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
-            "cover": "sample.png",
+            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada. Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
+            "cover": "4A_fig_I_soglia_G.JPG",
             "audio": ""
         },
-        "P42":{
+        "P5":{
             "title": "La forgia",
             "descr": "Nella forgia venivano scaldati gli oggetti tra i carboni ardenti. Si trovava sopra un basamento quadrangolare, di cui oggi si conserva solamente la fondazione, realizzata in tegole e ciottoli. Per mantenere ardente il carbone ed elevata la temperatura veniva usato il mantice: un sacco in pelle con manici e un beccuccio che veniva aperto e chiuso da un assistente per immettere aria nella forgia.",
-            "cover": "sample.png",
+            "cover": "4B_fig_L_base_forgia.JPG",
             "audio": ""
         },
-        "P43":{
-            "title": "La fucina",
-            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
-            "cover": "sample.png",
+        "P51":{
+            "title": "Il mantice",
+            "descr": "Per mantenere ardente il carbone ed elevata la temperatura veniva usato il mantice: un sacco in pelle con manici e un beccuccio che veniva aperto e chiuso da un assistente per immettere aria nella forgia. La ricostruzione dell’impianto si basa sulle numerose immagini antiche che ci sono pervenute raffiguranti forge di età romana in posizione rialzata, associate a un mantice",
+            "cover": "P51.jpg",
             "audio": ""
         },
         "P44":{
@@ -186,12 +184,6 @@
             "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis congue est, ac eleifend sem tincidunt at. Cras et mollis dui, vitae malesuada risus. Integer dui tortor, sagittis sit amet velit a, aliquet gravida nunc. Curabitur sit amet massa convallis turpis posuere dictum id a libero. Aenean eget eros vel nibh placerat sollicitudin sit amet a purus. Aenean eu dolor laoreet, lobortis nisi sed, dictum augue. Fusce finibus nibh quis dolor tristique, accumsan rutrum diam facilisis. Maecenas pellentesque felis velit, blandit suscipit eros maximus quis. Integer in pulvinar sem, sed scelerisque ipsum. Phasellus eu orci placerat, elementum magna a, ornare erat. Phasellus aliquet tortor eleifend lorem blandit scelerisque ac sit amet libero. Mauris sed dictum tortor, sit amet laoreet augue. Aenean sagittis neque nec dapibus tempor. Ut auctor tellus et euismod vehicula. Duis ut metus non turpis pulvinar porttitor. Fusce eget odio maximus, fringilla arcu ut, tempor quam. Aliquam in dui tincidunt, dapibus urna tristique, interdum erat. Fusce sagittis fermentum nisl, vitae luctus mauris maximus at. Sed ullamcorper fringilla enim a rhoncus. Donec ipsum dolor, pharetra id arcu fringilla, consectetur posuere augue. Donec ornare tempor felis eu posuere. Cras eget neque commodo, posuere mi non, maximus leo. Etiam pretium accumsan neque sed pretium.",
             "cover": "xxx.png",
             "audio": "pippo.wav"
-        },
-        "USV116":{
-            "title": "USV 116",
-            "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis congue est, ac eleifend sem tincidunt at. Cras et mollis dui, vitae malesuada risus. Integer dui tortor, sagittis sit amet velit a, aliquet gravida nunc. Curabitur sit amet massa convallis turpis posuere dictum id a libero. Aenean eget eros vel nibh placerat sollicitudin sit amet a purus. Aenean eu dolor laoreet, lobortis nisi sed, dictum augue. Fusce finibus nibh quis dolor tristique, accumsan rutrum diam facilisis. Maecenas pellentesque felis velit, blandit suscipit eros maximus quis. Integer in pulvinar sem, sed scelerisque ipsum. Phasellus eu orci placerat, elementum magna a, ornare erat. Phasellus aliquet tortor eleifend lorem blandit scelerisque ac sit amet libero. Mauris sed dictum tortor, sit amet laoreet augue. Aenean sagittis neque nec dapibus tempor. Ut auctor tellus et euismod vehicula. Duis ut metus non turpis pulvinar porttitor. Fusce eget odio maximus, fringilla arcu ut, tempor quam. Aliquam in dui tincidunt, dapibus urna tristique, interdum erat. Fusce sagittis fermentum nisl, vitae luctus mauris maximus at. Sed ullamcorper fringilla enim a rhoncus. Donec ipsum dolor, pharetra id arcu fringilla, consectetur posuere augue. Donec ornare tempor felis eu posuere. Cras eget neque commodo, posuere mi non, maximus leo. Etiam pretium accumsan neque sed pretium.",
-            "cover": "sample.png",
-            "audio": "pluto.wav"
         }
     }
 
