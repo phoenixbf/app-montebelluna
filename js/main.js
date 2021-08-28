@@ -271,7 +271,7 @@ APP.updatePanel = (semid)=>{
     $("#idPanel").show();
     APP._bShowingPanel = true;
 
-    ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
+    if (S.audio && S.audio.length>3) ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
 
     let htmlcode = "";
     
