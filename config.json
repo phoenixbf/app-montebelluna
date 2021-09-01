@@ -139,8 +139,8 @@
         },
         "P5":{
             "title": "La forgia",
-            "descr": "Nella forgia venivano scaldati gli oggetti tra i carboni ardenti. Si trovava sopra un basamento quadrangolare, di cui oggi si conserva solamente la fondazione, realizzata in tegole e ciottoli. Per mantenere ardente il carbone ed elevata la temperatura veniva usato il mantice: un sacco in pelle con manici e un beccuccio che veniva aperto e chiuso da un assistente per immettere aria nella forgia.",
-            "cover": "4B_fig_L_base_forgia.JPG",
+            "descr": "Nella forgia venivano scaldati gli oggetti tra i carboni ardenti. Si trovava sopra un basamento quadrangolare, di cui oggi si conserva solamente la fondazione, realizzata in tegole e ciottoli. In epoca precedente la forgia era una fossa scavata a terra o posta sul piano. Per questo la fucina di Montebelluna costituisce una rara e precoce testimonianza di forgia rialzata, un nuovo tipo di impianto introdotto dai Romani che consentì al fabbro di lavorare seduto o in piedi, esercitando molta più forza nel “battere” gli oggetti.",
+            "cover": "P5.JPG",
             "audio": ""
         },
         "P51":{
@@ -149,33 +149,57 @@
             "cover": "P51.jpg",
             "audio": ""
         },
-        "P44":{
-            "title": "La fucina",
-            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
-            "cover": "sample.png",
+        "P6":{
+            "title": "L'incudine",
+            "descr": "L’incudine era il supporto su cui veniva battuto e plasmato il ferro scaldato nella forgia. Era sollevata da terra e inserita in un ceppo di legno che consentiva di assorbire i colpi del fabbro, come ai giorni nostri.",
+            "cover": "anvil.jpg",
             "audio": ""
         },
-        "P45":{
-            "title": "La fucina",
-            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
-            "cover": "sample.png",
+        "P61":{
+            "title": "La fossa di alloggiamento",
+            "descr": "Si conserva la fossa dove alloggiava il ceppo di legno per l’incudine. Il fondo e le pareti sono rivestite con frammenti di tegole.",
+            "cover": "4F_fig_M_taglio_incudine.JPG",
             "audio": ""
         },
-        "P46":{
-            "title": "La fucina",
-            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
-            "cover": "sample.png",
+        "P62":{
+            "title": "Le scorie metalliche",
+            "descr": "Intorno alla fossa è stata rinvenuta un’alta concentrazione di carbone e di piccole scorie metalliche prodotte dalla battitura sull’incudine del ferro rovente.",
+            "cover": "4G_fig_N_livello_nero.JPG",
             "audio": ""
         },
-        "P47":{
-            "title": "La fucina",
-            "descr": "La fucina misurava circa 20 mq e aveva un ingresso autonomo direttamente dalla strada.Al centro si trovavano la forgia e l’incudine, necessarie per l’attività di forgiatura; addossati alle pareti altri arredi legati al lavoro del fabbro.",
-            "cover": "sample.png",
+        "P7":{
+            "title": "Gli arredi",
+            "descr": "La fucina di Montebelluna ha consentito anche di riconoscere alcuni elementi degli arredi in legno, che raramente si conservano nel nostro territorio. Appoggiato alla parete occidentale della stanza si doveva trovare un mobile in legno, che aveva impedito la diffusione in questa parte della stanza dello strato di carbone e scorie. Dalla forma dell’impronta a terra possiamo immaginare un tavolo da lavoro all’incirca lungo 1 m e largo 40 cm.",
+            "cover": "P7.jpg",
+            "audio": ""
+        },
+        "P71":{
+            "title": "Il porta attrezzi",
+            "descr": "A fianco al tavolo è ipotizzabile una struttura a cui dovevano essere appesi gli attrezzi da lavoro (in particolare tenaglie e martelli) e forse anche gli oggetti prodotti, come sul  rilievo funerario di Cornelio Atimeto, un fabbro che lavorava a Roma nel I secolo d.C.",
+            "cover": "4H_fig_O1_rastrelliera.JPG",
+            "audio": ""
+        },
+        "P8":{
+            "title": "La fossa",
+            "descr": "La grande fossa quasi rettangolare era riempita di terra e carbone, ma non presentava un rivestimento particolare, né tracce di scottatura. Si pensa che fosse utilizzata come deposito per il carbone necessario all’attività della forgia.",
+            "cover": "4M_fig_P_vasca.jpg",
+            "audio": ""
+        },
+        "P9":{
+            "title": "La fossa",
+            "descr": "La grande fossa quasi rettangolare era riempita di terra e carbone, ma non presentava un rivestimento particolare, né tracce di scottatura. Si pensa che fosse utilizzata come deposito per il carbone necessario all’attività della forgia.",
+            "cover": "4M_fig_P_vasca.jpg",
             "audio": ""
         },
         "11":{
             "title": "Lo scavo",
             "descr": "A Posmon, in Via Cima Mandria, si trova uno dei siti archeologici più importanti di Montebelluna. Nel corso degli ultimi 50 anni qui sono stati scoperti una necropoli protostorica e romana, due edifici e una strada di età romana.",
+            "cover": "sample.png",
+            "audio": ""
+        },
+        "P10":{
+            "title": "I reperti in ferro",
+            "descr": "Cosa produceva il fabbro di Montebelluna? <br>Nella fucina di Montebelluna venivano prodotti e riparati piccoli oggetti di uso quotidiano, come chiodi e coltelli, e strumenti da lavoro, come la zappa (4P), il frammento di tenaglia (4Q) e di scalpello (4R, 4S) rinvenuti all’interno della fucina e probabilmente utilizzati proprio dal nostro fabbro.<br>Come facciamo a saperlo? Queste informazioni ci vengono suggerite dalle caratteristiche degli impianti, dalle dimensioni e natura delle scorie e dalla tipologia degli oggetti in ferro rinvenuti durante lo scavo.",
             "cover": "sample.png",
             "audio": ""
         },
