@@ -197,10 +197,16 @@
             "cover": "sample.png",
             "audio": ""
         },
+        "P91":{
+            "title": "Scorie di ferro",
+            "descr": "Lo studio morfologico e chimico-fisico delle scorie e dei resti della forgia ci dicono che il metallo lavorato era il ferro e ci aiutano a ricostruire molti aspetti dell’organizzazione dell’officina. Lo studio distributivo delle scorie di battitura, recuperate dal piano di calpestio della fucina diviso in quadrati numerati, come in una partita di “battaglia navale”, ha consentito di riconoscere la postazione di lavoro del fabbro e i gesti da lui compiuti.",
+            "cover": "P91.jpg",
+            "audio": ""
+        },
         "P10":{
             "title": "I reperti in ferro",
             "descr": "Cosa produceva il fabbro di Montebelluna? <br>Nella fucina di Montebelluna venivano prodotti e riparati piccoli oggetti di uso quotidiano, come chiodi e coltelli, e strumenti da lavoro, come la zappa (4P), il frammento di tenaglia (4Q) e di scalpello (4R, 4S) rinvenuti all’interno della fucina e probabilmente utilizzati proprio dal nostro fabbro.<br><br>Come facciamo a saperlo? <br>Queste informazioni ci vengono suggerite dalle caratteristiche degli impianti, dalle dimensioni e natura delle scorie e dalla tipologia degli oggetti in ferro rinvenuti durante lo scavo.",
-            "cover": "sample.png",
+            "cover": "P10.jpg",
             "audio": ""
         },
         "USV107":{
