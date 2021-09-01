@@ -270,6 +270,7 @@ APP.updatePanel = (semid)=>{
 
     $("#idPanel").show();
     APP._bShowingPanel = true;
+    //ATON._bPauseQuery  = true;
 
     if (S.audio && S.audio.length>3) ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
 
@@ -281,7 +282,7 @@ APP.updatePanel = (semid)=>{
     //htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-red' style='z-index:100;' >X</div>"; // atonSidePanelCloseBTN
 
     htmlcode += "<div class='atonSidePanelContent'>";
-    htmlcode += "<img src='"+APP.contentDir+"images/"+S.cover+"'>";
+    if (S.cover && S.cover.length>3) htmlcode += "<img src='"+APP.contentDir+"images/"+S.cover+"'>";
     htmlcode += "<div class='descriptionText'>"+S.descr+"</div>";
     htmlcode += "</div>";
 
@@ -292,6 +293,7 @@ APP.updatePanel = (semid)=>{
     $("#idPanelClose").click(()=>{
         $("#idPanel").hide();
         APP._bShowingPanel = false;
+        //ATON._bPauseQuery  = false;
     });
 };
 
@@ -317,6 +319,8 @@ APP.setupEvents = ()=>{
     ATON.on("SemanticNodeHover", (semid)=>{
         let S = ATON.getSemanticNode(semid);
         if (S) S.highlight();
+
+        //if (APP._bShowingPanel) return;
 
         APP.updatePanel(semid);
 

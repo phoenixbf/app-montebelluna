@@ -303,9 +303,9 @@ canvas:active {
     height: 100%;
     max-height: none;
  
-    width: 40%;
+    width: 35%;
     /*min-width: 400px;*/
-    max-width: 300px;
+    max-width: 400px;
 
     margin: 0px;
     padding: 10px;
@@ -395,7 +395,7 @@ canvas:active {
 
     border-radius: 5px;
 
-    width: 290px;
+    width: 100%;
     height: auto;
 }
 
@@ -1611,7 +1611,7 @@ label {
     padding: 5px;
     width: 90%;
 
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     /*border-radius: 20px;*/
 
     border-bottom-left-radius: 20px;
