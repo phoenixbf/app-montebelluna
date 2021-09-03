@@ -190,6 +190,7 @@ APP.moveTo = (i)=>{
     let p = APP.conf.network[APP.currpano];
     let pos = p.pos;
     console.log("Moving to ",pos);
+    console.log(p.name);
 
     let V = ATON.Nav.getCurrentDirection();
 
@@ -210,7 +211,23 @@ APP.moveTo = (i)=>{
 
     //ATON.setMainPanoramaLocation( new THREE.Vector3(pos[0],pos[1],pos[2]));
 
-    console.log(APP.currpano);
+    //console.log(APP.currpano);
+
+    APP.filterSemantics();
+};
+
+APP.filterSemantics = ()=>{
+    let p = APP.conf.network[APP.currpano];
+    if (p === undefined) return;
+
+    if (p.semlist === undefined){
+        for (let j in APP._semlist) ATON.getSemanticNode(APP._semlist[j]).show();
+        return;
+    }
+
+    for (let j in APP._semlist) ATON.getSemanticNode(APP._semlist[j]).hide();
+
+    for (let j in p.semlist) ATON.getSemanticNode(p.semlist[j]).show();
 };
 
 // Load config
@@ -229,9 +246,13 @@ APP.loadConfig = (path)=>{
 
         //ATON.createSceneNode("esterni").load("proxies/Esterno.glb").attachToRoot();
 
+        APP._semlist = [];
+
         if (data.sem){
             for (let a in data.sem){
                 let A = ATON.createSemanticNode(a);
+                
+                APP._semlist.push(a);
                 
                 //A.load("proxies/"+a+".glb", ()=>{ A.enablePicking() }).attachTo("mainsem");
                 A.load("proxies/"+a+".glb").attachTo("mainsem");
@@ -309,7 +330,12 @@ APP.setupEvents = ()=>{
 
         //APP.popupStart();
 
-        APP.moveTo(4); // 0
+        APP.moveTo(0); // 0
+    });
+
+    ATON.on("AllNodeRequestsCompleted", ()=>{
+        console.log("All nodes loaded");
+        APP.filterSemantics();
     });
 
     ATON.on("SemanticNodeLeave", (semid)=>{
@@ -370,15 +396,12 @@ APP.setupEvents = ()=>{
 
 
 APP.buildSUI = ()=>{
+    let telSize = 1.5;
 
-    APP.suiTelep = new ATON.SUI.Button("suiTeleport");
-    APP.suiTelep.setScale(16.0);
-    APP.suiTelep.setRotation(-1.57079632679,0.0,0.0);
-    //APP.suiTelep.setPosition(0.0,-2.0,0.0);
-    APP.suiTelep.setIcon(APP.contentDir+"ui/teleport.png", true);
-    APP.suiTelep.attachToRoot();
-
-    console.log(APP.suiTelep);
+    APP.suiTelep = ATON.SUI.buildPanelNode("suiTeleport", APP.contentDir+"ui/teleport.png", telSize,telSize);
+    APP.suiTelep
+        .setRotation(-1.57079632679,0.0,0.0)
+        .attachToRoot();
 };
 
 
