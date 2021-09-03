@@ -261,6 +261,10 @@ APP.loadConfig = (path)=>{
     });
 };
 
+APP.getThumbImageURL = (covername)=>{
+    return APP.contentDir + "images/thumbs/" + covername;
+};
+
 APP.updatePanel = (semid)=>{
     if (APP.conf === undefined) return;
     if (APP.conf.sem === undefined) return;
@@ -282,7 +286,7 @@ APP.updatePanel = (semid)=>{
     //htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-red' style='z-index:100;' >X</div>"; // atonSidePanelCloseBTN
 
     htmlcode += "<div class='atonSidePanelContent'>";
-    if (S.cover && S.cover.length>3) htmlcode += "<img src='"+APP.contentDir+"images/"+S.cover+"'>";
+    if (S.cover && S.cover.length>3) htmlcode += "<img src='"+APP.getThumbImageURL(S.cover)+"'>";
     htmlcode += "<div class='descriptionText'>"+S.descr+"</div>";
     htmlcode += "</div>";
 
