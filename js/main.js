@@ -30,8 +30,11 @@ APP.nextpano   = -1;
 APP._bFirstPOV = false;
 APP._pRotOffset = -(Math.PI * 0.5);
 
-
 APP._bShowingPanel = false;
+APP.auGen = undefined;
+
+
+
 
 APP.init = ()=>{
     // Realize the base front-end
@@ -297,7 +300,13 @@ APP.updatePanel = (semid)=>{
     APP._bShowingPanel = true;
     //ATON._bPauseQuery  = true;
 
-    if (S.audio && S.audio.length>3) ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
+    if (S.audio && S.audio.length>3){
+        if (APP.auGen !== undefined){
+            if (APP.auGen.isPlaying) APP.auGen.stop();
+        }
+
+        APP.auGen = ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
+    }
 
     let htmlcode = "";
     
