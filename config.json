@@ -8,7 +8,7 @@
         {
             "name": "02",
             "pos": [333.800, 116.658, -113.667],
-            "semlist":["P41", "P3", "P31"]
+            "semlist":["P3", "P31"]
         },
         {
             "name": "03",
@@ -47,7 +47,7 @@
             "title": "Introduzione scavi Area Posmon",
             "descr": "A Posmon, in Via Cima Mandria, si trova uno dei siti archeologici più importanti di Montebelluna. Nel corso degli ultimi 50 anni qui sono stati scoperti una necropoli protostorica e romana, due edifici e una strada di età romana.",
             "cover": "sample.png",
-            "audio": ""
+            "audio": "P11.m4a"
         },
         "P12":{
             "title": "Scavi",
@@ -89,7 +89,7 @@
             "title": "Panoramica generale dei diversi ambienti",
             "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
             "cover": "3A_TAV_A3_pianta_strutture_totale.jpg",
-            "audio": ""
+            "audio": "P3.m4a"
         },
         "P31":{
             "title": "Ambiente I",
