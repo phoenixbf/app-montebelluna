@@ -46,7 +46,7 @@
         "P11":{
             "title": "Introduzione scavi Area Posmon",
             "descr": "A Posmon, in Via Cima Mandria, si trova uno dei siti archeologici più importanti di Montebelluna. Nel corso degli ultimi 50 anni qui sono stati scoperti una necropoli protostorica e romana, due edifici e una strada di età romana.",
-            "cover": "sample.png",
+            "cover": "1D_localizzazione_colRID.jpg",
             "audio": "p11.mp3"
         },
         "P12":{
@@ -77,7 +77,7 @@
             "title": "Funzione",
             "descr": "L’edificio era quasi interamente dedicato alla produzione artigianale, ad eccezione dell’ambiente E. È probabile, infatti, che la struttura accogliesse, oltre ad una (è la prima volta che viene nominata) fucina e ad altri  altri ambienti lavorativi, anche l’abitazione del fabbro.",
             "cover": "sample.png",
-            "audio": ""
+            "audio": "p15b.mp3"
         },
         "P16":{
             "title": "Grande interesse",
@@ -89,7 +89,7 @@
             "title": "Panoramica generale dei diversi ambienti",
             "descr": "L’edificio sembra configurarsi come una casa-laboratorio, pianificata e costruita per essere destinata all’attività produttiva, tra cui quella metallurgica. Sul lato occidentale si trovava il settore abitativo, mentre i rimanenti vani erano adibiti a sede di attività produttive.",
             "cover": "3A_TAV_A3_pianta_strutture_totale.jpg",
-            "audio": ""
+            "audio": "p30.mp3"
         },
         "P31":{
             "title": "Ambiente I",
@@ -178,8 +178,8 @@
         "P7":{
             "title": "Gli arredi",
             "descr": "La fucina di Montebelluna ha consentito anche di riconoscere alcuni elementi degli arredi in legno, che raramente si conservano nel nostro territorio. Appoggiato alla parete occidentale della stanza si doveva trovare un mobile in legno, che aveva impedito la diffusione in questa parte della stanza dello strato di carbone e scorie. Dalla forma dell’impronta a terra possiamo immaginare un tavolo da lavoro all’incirca lungo 1 m e largo 40 cm.",
-            "cover": "P70ok.jpg",
-            "audio": ""
+            "cover": "P7.jpg",
+            "audio": "P70ok.mp3"
         },
         "P71":{
             "title": "Il porta attrezzi",
