@@ -46,13 +46,13 @@
         "P11":{
             "title": "Introduzione scavi Area Posmon",
             "descr": "A Posmon, in Via Cima Mandria, si trova uno dei siti archeologici più importanti di Montebelluna. Nel corso degli ultimi 50 anni qui sono stati scoperti una necropoli protostorica e romana, due edifici e una strada di età romana.",
-            "cover": "1D_localizzazione_colRID.jpg",
+            "cover": "11.jpg",
             "audio": "p11.mp3"
         },
         "P12":{
             "title": "Scavi",
             "descr": "L’area, ora destinata a parco pubblico conserva, interrati, i resti di un edificio romano della prima età imperiale. Gli scavi sono stati condotti, tra il 2006 e il 2010 da un’equipe dell’Università di Padova con la supervisione della competente Soprintendenza.",
-            "cover": "sample.png",
+            "cover": "1D_localizzazione_colRID.jpg",
             "audio": "p12.mp3"
         },
         "P13":{
@@ -71,7 +71,7 @@
             "title": "Pianta con ambienti",
             "descr": "Nella sua ultima fase di vita, il complesso si articolava in vari ambienti di forma quadrangolare (A, B, C, D, E, F e G), disposti a ferro di cavallo attorno ad un’area libera centrale, probabilmente scoperta (I).",
             "cover": "sample.png",
-            "audio": ""
+            "audio": "p15ok.mp3"
         },
         "P15b":{
             "title": "Funzione",
@@ -197,7 +197,7 @@
             "title": "La fossa",
             "descr": "La grande fossa quasi rettangolare era riempita di terra e carbone, ma non presentava un rivestimento particolare, né tracce di scottatura. Si pensa che fosse utilizzata come deposito per il carbone necessario all’attività della forgia.",
             "cover": "4M_fig_P_vasca.jpg",
-            "audio": ""
+            "audio": "p9ok.mp3"
         },
         "P91":{
             "title": "Scorie di ferro",
