@@ -146,7 +146,7 @@ APP.handleNextPanoSelection = ()=>{
     const NL = APP.conf.network[APP.nextpano];
 
     APP.suiTelep.position.x = NL.pos[0];
-    APP.suiTelep.position.y = NL.pos[1] - 1.3;
+    APP.suiTelep.position.y = NL.pos[1]; // - 1.3;
     APP.suiTelep.position.z = NL.pos[2];
 /*
     APP.suiTelep.setPosition(
@@ -407,10 +407,24 @@ APP.setupEvents = ()=>{
 APP.buildSUI = ()=>{
     let telSize = 1.5;
 
+    APP.matTelep = new THREE.SpriteMaterial({ 
+        map: new THREE.TextureLoader().load( APP.contentDir+"ui/teleport.png" ),
+        transparent: true,
+        opacity: 1.0,
+        depthWrite: false, 
+        depthTest: false
+    });
+
+    APP.suiTelep = new THREE.Sprite( APP.matTelep );
+    APP.suiTelep.scale.set(telSize,telSize,1);
+    ATON.getRootUI().add(APP.suiTelep);
+
+/*
     APP.suiTelep = ATON.SUI.buildPanelNode("suiTeleport", APP.contentDir+"ui/teleport.png", telSize,telSize);
     APP.suiTelep
         .setRotation(-1.57079632679,0.0,0.0)
         .attachToRoot();
+*/
 };
 
 
