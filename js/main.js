@@ -32,6 +32,7 @@ APP._pRotOffset = -(Math.PI * 0.5);
 
 APP._bShowingPanel = false;
 APP.auGen = undefined;
+APP._bAudio = false;
 
 
 
@@ -302,10 +303,16 @@ APP.updatePanel = (semid)=>{
 
     if (S.audio && S.audio.length>3){
         if (APP.auGen !== undefined){
-            if (APP.auGen.isPlaying) APP.auGen.stop();
+            if (APP.auGen.isPlaying){
+                APP.auGen.stop();
+                APP._bAudio = false;
+            }
         }
 
-        APP.auGen = ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
+        if (!APP._bAudio){
+            APP.auGen = ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
+            APP._bAudio = true;
+        }
     }
 
     let htmlcode = "";
