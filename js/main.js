@@ -87,7 +87,11 @@ APP.init = ()=>{
 
     APP.buildSUI();
 
-    //APP.matHL = new 
+    // Materials
+    APP._matSem   = ATON.MatHub.materials.semanticShape;
+    APP._matSemHL = ATON.MatHub.materials.semanticShapeHL;
+    //APP._matSemHL = ATON.MatHub.materials.defUI.clone();
+    //APP._matSemHL.uniforms.color.value = new THREE.Color(0,1,0.5);
 
     // Load config
     APP.loadConfig("config.json");
@@ -261,8 +265,8 @@ APP.loadConfig = (path)=>{
                 //A.load("proxies/"+a+".glb", ()=>{ A.enablePicking() }).attachTo("mainsem");
                 A.load("proxies/"+a+".glb").attachTo("mainsem");
 
-                A.setMaterial( ATON.MatHub.materials.semanticShape );
-                A.setDefaultAndHighlightMaterials(ATON.MatHub.materials.semanticShape, ATON.MatHub.materials.semanticShapeHL/*APP.matHL*/);
+                A.setMaterial( APP._matSem );
+                A.setDefaultAndHighlightMaterials( APP._matSem, APP._matSemHL );
 
                 //A.setScale(20.0)
                 
@@ -291,10 +295,10 @@ APP.getThumbImageURL = (covername)=>{
 };
 
 APP.stopCurrAudioIfPlaying = ()=>{
-    if (APP.auGen === undefined) return;
-    if (!APP.auGen.isPlaying) return;
-    
-    APP.auGen.stop();
+    if (APP.auGen){
+        if (APP.auGen.isPlaying) APP.auGen.stop();
+    }
+
     APP._bAudio = false;
     ATON._bPauseQuery = false;
 };
@@ -387,7 +391,7 @@ APP.setupEvents = ()=>{
 
     ATON.on("Tap", (e)=>{
         if (ATON._bPauseQuery) return;
-        
+
         APP.updatePanel(ATON._hoveredSemNode);
     });
 
