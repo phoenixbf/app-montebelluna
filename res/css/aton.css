@@ -295,7 +295,7 @@ canvas:active {
 }
 
 .atonSidePanelContainer {
-    z-index: 8;
+    z-index: 101;
 	position: absolute;
 
     box-sizing: border-box;
@@ -595,6 +595,14 @@ canvas:active {
     padding: 5%;
 }
 
+.atonCircledSmall {
+    display:inline-block;
+
+    border-radius: 50%;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 10px;
+}
+
 .atonKey {
     display: inline-block;
     border-radius: 5px;
@@ -661,6 +669,11 @@ canvas:active {
     }
 }
 
+.atonBTN-text {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .atonBTN img {
     position: relative;
     vertical-align: middle;
@@ -697,6 +710,10 @@ canvas:active {
 
     font-size: large;
     border-radius: 15px;
+}
+
+.atonBTN-horizontal {
+    display: block;
 }
 
 .atonBTN:hover {
@@ -1399,8 +1416,12 @@ input[type="number"]:hover {
 
 /* Powered by */
 .poweredBy {
-    width: 100%;
-    z-index: 0;
+    display: inline-block;
+    position: fixed;
+    z-index: 100;
+
+    bottom: 0px;
+    left: 0px;
 
     color: #FFF;
     text-shadow: 0px 0px 4px #000000;
@@ -1408,7 +1429,7 @@ input[type="number"]:hover {
     text-shadow: 0px 0px 4px #000000;
 
     padding: 5px;
-    margin: 0px;
+
     text-align: left;
 }
 
@@ -1505,13 +1526,16 @@ label {
     margin: 10px;
     
     /*float: left; */
-    
+/*  
     background-color:rgba(128,255,128, 0.2);
+    box-shadow: 0px 0px 20px rgba(0,20,0, 1);
+*/
+    background-color:rgba(200,255,200, 0.2);
     box-shadow: 0px 0px 20px rgba(0,20,0, 1);
 }
 
 .shuBlockNode:hover {
-    box-shadow: 0px 0px 20px rgba(0,255,0, 0.5);
+    box-shadow: 0px 0px 20px rgba(255,255,255, 0.5);
 }
 
 .shuFooter {
@@ -1644,7 +1668,7 @@ label {
     position: relative;
 
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     width: 90%;
 
     background-color: rgba(0, 0, 0, 0.3);
@@ -1732,4 +1756,15 @@ tr:hover {
 
 td {
     padding: 5px;
+}
+
+summary {
+    cursor: pointer;
+    padding: 5px;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }

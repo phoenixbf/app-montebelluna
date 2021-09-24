@@ -306,12 +306,19 @@ APP.updatePanel = (semid)=>{
             if (APP.auGen.isPlaying){
                 APP.auGen.stop();
                 APP._bAudio = false;
+                //ATON._bPauseQuery = false;
             }
         }
 
         if (!APP._bAudio){
             APP.auGen = ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
             APP._bAudio = true;
+            //ATON._bPauseQuery = true;
+
+            APP.auGen.onEnded = ()=>{
+                APP._bAudio = false;
+                //ATON._bPauseQuery = false;  
+            };
         }
     }
 
@@ -412,7 +419,7 @@ APP.setupEvents = ()=>{
 
 
 APP.buildSUI = ()=>{
-    let telSize = 1.5;
+    let telSize = 0.8; //1.5;
 
     APP.matTelep = new THREE.SpriteMaterial({ 
         map: new THREE.TextureLoader().load( APP.contentDir+"ui/teleport.png" ),
