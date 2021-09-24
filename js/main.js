@@ -290,6 +290,15 @@ APP.getThumbImageURL = (covername)=>{
     return APP.contentDir + "images/thumbs/" + covername;
 };
 
+APP.stopCurrAudioIfPlaying = ()=>{
+    if (APP.auGen === undefined) return;
+    if (!APP.auGen.isPlaying) return;
+    
+    APP.auGen.stop();
+    APP._bAudio = false;
+    ATON._bPauseQuery = false;
+};
+
 APP.updatePanel = (semid)=>{
     if (APP.conf === undefined) return;
     if (APP.conf.sem === undefined) return;
@@ -302,34 +311,29 @@ APP.updatePanel = (semid)=>{
     //ATON._bPauseQuery  = true;
 
     if (S.audio && S.audio.length>3){
-        if (APP.auGen !== undefined){
-            if (APP.auGen.isPlaying){
-                APP.auGen.stop();
-                APP._bAudio = false;
-                //ATON._bPauseQuery = false;
-            }
-        }
+        APP.stopCurrAudioIfPlaying();
 
         if (!APP._bAudio){
             APP.auGen = ATON.AudioHub.playOnceGlobally(APP.audioDir + S.audio);
             APP._bAudio = true;
-            //ATON._bPauseQuery = true;
+            ATON._bPauseQuery = true;
 
             APP.auGen.onEnded = ()=>{
                 APP._bAudio = false;
-                //ATON._bPauseQuery = false;  
+                ATON._bPauseQuery = false;  
             };
         }
     }
 
     let htmlcode = "";
     
-    //htmlcode += "<div class='atonPopupTitle'>"+S.title+"</div>";
-    htmlcode += "<div class='atonPopupTitle'><div id='idPanelClose' class='atonBTN atonBTN-red' style='float:left;margin:0px'>X</div>"+S.title+"</div>";
-    
-    //htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-red' style='z-index:100;' >X</div>"; // atonSidePanelCloseBTN
 
-    htmlcode += "<div class='atonSidePanelContent'>";
+    htmlcode += "<div class='atonPopupTitle'>"; // style='position:absolute; z-index:110; background-color:rgba(0,0,0, 0.8)'
+    htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-red' style='float:left; margin:0px'>X</div>";
+    //htmlcode += "<div id='idPanelPlayStop' class='atonBTN' style='float:left;margin:0px'>P</div>";
+    htmlcode += S.title+"</div>";
+
+    htmlcode += "<div class='atonSidePanelContent' style='height: calc(100% - 50px);'>";
     if (S.cover && S.cover.length>3) htmlcode += "<img src='"+APP.getThumbImageURL(S.cover)+"'>";
     htmlcode += "<div class='descriptionText'>"+S.descr+"</div>";
     htmlcode += "</div>";
@@ -341,7 +345,9 @@ APP.updatePanel = (semid)=>{
     $("#idPanelClose").click(()=>{
         $("#idPanel").hide();
         APP._bShowingPanel = false;
-        //ATON._bPauseQuery  = false;
+        ATON._bPauseQuery  = false;
+
+        APP.stopCurrAudioIfPlaying();
     });
 };
 
@@ -374,11 +380,17 @@ APP.setupEvents = ()=>{
         if (S) S.highlight();
 
         //if (APP._bShowingPanel) return;
-
-        APP.updatePanel(semid);
+        //APP.updatePanel(semid);
 
         //console.log(semid);
     });
+
+    ATON.on("Tap", (e)=>{
+        if (ATON._bPauseQuery) return;
+        
+        APP.updatePanel(ATON._hoveredSemNode);
+    });
+
 /*
     ATON.on("UINodeLeave", (uiid)=>{
         console.log(uiid);
