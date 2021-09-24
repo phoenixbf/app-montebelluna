@@ -89,9 +89,10 @@ APP.init = ()=>{
 
     // Materials
     APP._matSem   = ATON.MatHub.materials.semanticShape;
-    APP._matSemHL = ATON.MatHub.materials.semanticShapeHL;
-    //APP._matSemHL = ATON.MatHub.materials.defUI.clone();
-    //APP._matSemHL.uniforms.color.value = new THREE.Color(0,1,0.5);
+    //APP._matSemHL = ATON.MatHub.materials.semanticShapeHL;
+    APP._matSemHL = ATON.MatHub.materials.defUI.clone();
+    APP._matSemHL.uniforms.color.value = new THREE.Color(0,1,0.5);
+    APP._matSemHL.uniforms.opacity.value = 0.4;
 
     // Load config
     APP.loadConfig("config.json");
@@ -333,7 +334,7 @@ APP.updatePanel = (semid)=>{
     
 
     htmlcode += "<div class='atonPopupTitle'>"; // style='position:absolute; z-index:110; background-color:rgba(0,0,0, 0.8)'
-    htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-red' style='float:left; margin:0px'>X</div>";
+    htmlcode += "<div id='idPanelClose' class='atonBTN atonBTN-rec' style='float:left; margin:0px'>X</div>";
     //htmlcode += "<div id='idPanelPlayStop' class='atonBTN' style='float:left;margin:0px'>P</div>";
     htmlcode += S.title+"</div>";
 
