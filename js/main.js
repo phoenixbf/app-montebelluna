@@ -178,16 +178,15 @@ APP.loadPanorama = ()=>{
     if (APP.conf.network === undefined) return;
 
     let p = APP.conf.network[APP.currpano];
+    let rf = ATON.device.isMobile? "4k/" : "8k/";
 
     let post = (APP.currperiod === APP.P_MODERN)? "m.jpg" : "a.jpg";
-    let purl = p.name + post;
+    let purl = rf + p.name + post;
 
     ATON.setMainPanorama(purl);
-    //ATON.setMainPanoramaRotation(-Math.PI * 1.5);
     ATON.setMainPanoramaRotation(APP._pRotOffset);
-    //ATON.setMainPanoramaRadius(1.0);
 
-    console.log(purl);
+    //console.log(purl);
 };
 
 APP.moveTo = (i)=>{
