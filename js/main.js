@@ -437,6 +437,8 @@ APP.setupEvents = ()=>{
 
 
 APP.buildSUI = ()=>{
+    ATON.SUI.bShowInfo = false;
+
     let telSize = 0.8; //1.5;
 
     APP.matTelep = new THREE.SpriteMaterial({ 
